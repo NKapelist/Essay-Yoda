@@ -1,0 +1,19 @@
+{
+  "name": "essay-yoda",
+  "version": "1.0.0",
+  "description": "testTask",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nato4ka12/Essay-Yoda.git"
+  },
+  "author": "Natalie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nato4ka12/Essay-Yoda/issues"
+  },
+  "homepage": "https://github.com/Nato4ka12/Essay-Yoda#readme"
+}
