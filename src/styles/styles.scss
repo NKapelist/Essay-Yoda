@@ -1,0 +1,40 @@
+@import "_reset.scss";
+@import "_var.scss";
+@import "_header.scss";
+@import "_section_write-me-form.scss";
+@import "_section_how-it-works.scss";
+@import "_section_why-us.scss";
+@import "_section_buy-essay.scss";
+@import "_section_customers-say.scss";
+@import "_section_essay-papers.scss";
+@import "_section_why-take-advantage.scss";
+@import "_section_gaining-access.scss";
+@import "_section_faq.scss";
+@import "_section_write-me-form-copy.scss";
+@import "_footer.scss";
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    overflow-x: hidden;
+}
+.wrapper {
+    min-width: 320px;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e5;
+}
+.section {
+    width: 100%;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+    max-width: 94%;
+    position: relative;
+}
