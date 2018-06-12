@@ -1,0 +1,101 @@
+.section_why-us {
+    width: 100%;
+    min-height: 910px;
+    height: auto;
+    color: #363636;
+    font-size: 18px;
+    overflow: hidden;
+    .content_wrapper {
+        width: 100%;
+        height: 910px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        .section_heading {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column nowrap;
+            span {
+                position: relative;
+                font-size: 36px;
+                font-weight: bold;
+                line-height: 2.5;
+                word-spacing: 7px;   
+            }
+            span:after {
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 2px;
+                background: #6e34e9;
+                left: 50%;
+                bottom: -10px;
+                transform: translateX(-50%);
+            }
+        }
+        .section_content {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-flow: column nowrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .content_circles {
+                width: 100%;
+                height: 25%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .circles_item {
+                    width: 25%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 0;
+                    .item {
+                        width: 119px;
+                        height: 119px;
+                        border-radius: 50%;
+                        background-color: #9442e1;
+                    }
+                }
+            }
+            .content_text {
+                width: 100%;
+                height: 45%;
+                min-height: 500px;
+                display: flex;
+                flex-flow: row nowrap;
+                .text_item {
+                    width: 25%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    .item {
+                        width: 90%;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: flex-start;
+                        align-items: center;
+                        text-align: center;
+                        padding: 0 5%;
+                        span {
+                            line-height: 2;
+                        }
+                    }
+                }
+            }     
+        }
+        .heading_text {
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: center;
+        }
+    }
+}
