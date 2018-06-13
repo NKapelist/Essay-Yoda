@@ -28,5 +28,11 @@
     "webpack": "^4.12.0",
     "webpack-cli": "^3.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "jquery": "^3.3.1"
+  }
 }
