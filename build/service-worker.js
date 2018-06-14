@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","a41ec4a5b7310a7864e3bc4631175dec"],["main.js","86b56b84cf63053d3fbc17dffe48aab3"],["service-worker.js","d4a9b1f56a96c002a35c39cd11a3dd67"]];
-var cacheName = 'sw-precache-v3-essay-yoda0.39564680343852854-' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["b7c9e1e479de3b53f1e4e30ebac2403a.woff","b7c9e1e479de3b53f1e4e30ebac2403a"],["ced611daf7709cc778da928fec876475.eot","ced611daf7709cc778da928fec876475"],["d41f55a78e6f49a5512878df1737e58a.ttf","d41f55a78e6f49a5512878df1737e58a"],["index.html","4ed053034d6ac7d3bb07f08f3d5666bf"],["main.js","383aa8674bcd8ead96bcd3d91feef7ce"],["service-worker.js","634f0e7160ae0d1e4233f3ea6a6c6bb1"]];
+var cacheName = 'sw-precache-v3-essay-yoda0.1358414182278922-' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];
