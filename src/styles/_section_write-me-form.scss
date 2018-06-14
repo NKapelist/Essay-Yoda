@@ -293,33 +293,31 @@
                         vertical-align: middle;
                         margin: 0 6px;
                        
-                       &.slick-active {
-                         button {
-                           background-color: #f2994a;
-                           height: 10px;
-                           width: 10px;
-                           
-                           &:hover {
-                           background-color: #f2994a;
-                           }
-                         }
-                       }
-                       
-                       button {
-                         outline: none;
-                         display: block;
-                         width: 8px;
-                         height: 8px;
-                         border: 1px solid #f2994a;
-                         background-color: transparent;
-                         text-indent: -9999px;
-                         border-radius: 100%;
-                         cursor: pointer;
+                        &.slick-active {
+                            button {
+                                background-color: #f2994a;
+                                height: 10px;
+                                width: 10px;
+                                &:hover {
+                                background-color: #f2994a;
+                                }
+                            }
+                        }
+                        button {
+                            outline: none;
+                            display: block;
+                            width: 8px;
+                            height: 8px;
+                            border: 1px solid #f2994a;
+                            background-color: transparent;
+                            text-indent: -9999px;
+                            border-radius: 100%;
+                            cursor: pointer;
                          
-                         &:hover {
-                           background-color: #f2994a;
-                         }
-                       }
+                            &:hover {
+                                background-color: #f2994a;
+                            }  
+                        }
                     }
                 }   
             }
