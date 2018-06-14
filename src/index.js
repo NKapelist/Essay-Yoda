@@ -27,4 +27,6 @@ $('.expander').on('click', function(e){
   initialSlide: indexToGet,
   dots: true,
   focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: '3000'
 });
