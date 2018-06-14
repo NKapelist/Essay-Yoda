@@ -23,18 +23,30 @@
         }
     }
     .content {
+        width: 100%;
         height: 100%;
         position: relative;
         z-index: 2;
+        background-color: pink;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
         .customers-say {
             width: 100%;
             height: 90%;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            background-color: yellowgreen;
             .section_heading {
                 width: 100%;
                 height: 20%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background-color: rosybrown;
                 span {
                     position: relative;
                     font-size: 36px;
@@ -42,6 +54,16 @@
                     line-height: 2.5;
                     word-spacing: 7px;   
                 }
+            }
+            .section_content {
+                width: 100%;
+                height: 500px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                background-color: blueviolet;
             }
         }
     }
